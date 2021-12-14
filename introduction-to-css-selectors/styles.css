@@ -1,0 +1,29 @@
+body {
+    background-color: lavender;
+}
+
+#div {background-color: peachpuff;
+}
+/* always remember to put a semi colon after every tag */
+/* class: make code change sin html then define it in CSS */
+/* lists always start wiht a full stop */
+.list-item {
+    background-color: darkseagreen;
+}
+.main-heading {
+    background-color: lightskyblue;
+}
+/* Id can only be used once per page and only be used on one element.
+But can have multiple classes*/
+
+#first-paragraph {
+    background-color: lightcoral;
+}
+
+.nav-item {
+    background-color: mediumpurple;
+}
+
+.nav2-item {
+    background-color: gold;
+}

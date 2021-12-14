@@ -1,7 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,800&display=swap');
+
 
 html {
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     background-color: #fff;
 }
 
@@ -12,7 +14,10 @@ body {
 header {
     text-align: center;
     background-color: #6b469a;
-    padding: 10px;
+    font-family: Arial;
+    font-size: 20px;
+    padding: 20px;
+    margin: 20px;
 }
 
 h1 {
@@ -31,6 +36,7 @@ nav {
     margin: 10px;
     padding: 10px;
     background-color: #999999;
+    width: 200px;
 }
 
 a {
@@ -56,6 +62,13 @@ img {
     object-position: bottom;
 }
 
+#img_home {
+    width: 300px;
+    height: 200px;
+    border: 3px dashed #008080;
+
+}
+
 footer {
     text-align: center;
     background-color: #6b469a;
@@ -64,3 +77,9 @@ footer {
 }
 
 /* Your code here */
+/* nav is navigator a defines a tags. 
+a tag is an anchor
+a href - is a link to link to another page website or item */
+nav a {
+    display: block;
+}
