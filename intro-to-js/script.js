@@ -1,29 +1,45 @@
-window.onload = function() {
-    // start
+// telling window to load the function when the page loads
 
-    // end
-}
+window.onload = function () {
+  // start
+  let starterDiv = document.getElementById("starter-div");
+  let firstHeading = document.createElement("h2");
+  firstHeading.innerText = "This is an H2 created with JS";
+  firstHeading.classList.add("js-header");
 
+  starterDiv.appendChild(firstHeading);
 
-function showName(){
-    console.log('showName');
-    // start
+  let secondHeading = document.createElement("h2");
+  secondHeading.innerText = "This is another H2 element created with JS. wow";
+  secondHeading.classList.add("js-header");
+  secondHeading.id = "second-h2";
 
-    // end
+  starterDiv.appendChild(secondHeading);
+  // end
+};
+
+function showName() {
+  console.log("showName");
+  // start
+  let name = document.getElementById("name").value;
+  document.getElementById("greeting-text").innerText = "Hi " + name;
+  // end
 }
 
 function changeColour(colour) {
-    // start
-
-    // end
+  // start
+  document.body.style.backgroundColor = colour;
+  // end
 }
 
 function resetColour() {
-    document.body.style.backgroundColor = '#FCE166';
+  document.body.style.backgroundColor = "#FCE166";
 }
 
 function toggleLightbulb() {
-    // start
-
-    // end
+  // start
+  let lightbulb = document.getElementById('light');
+  lightbulb.classList.toggle('on');
+  
+  // end
 }
